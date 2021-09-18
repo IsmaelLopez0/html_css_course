@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  border-bottom: 1px solid lightgray;
+}
+
+#header > div {
+  display: flex;
+}
+
+#header > div:first-child > img:last-child {
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid black;
+}
+
+#header > div:last-child > img {
+  margin-left: 10px;
+}
+
+.profile {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.magico {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+#main-section {
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#main-section-title {
+  padding: 10px;
+  margin: 0;
+  color: gray;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-top: 1px solid lightgray;
+}
+
+.project > div {
+  display: flex;
+  align-items: center;
+}
+
+.project > div > div > p {
+  margin: 0 5px;
+}
+
+.project > div > div > p:nth-child(2) {
+  color: gray;
+}
+
+.my-button {
+  padding: 5px 10px;
+  background: rgb(0, 102, 255);
+  color: #f3f3f3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.element {
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.element > p > span {
+  font-weight: bold;
+}
+
+.element > .project {
+  padding: 0;
+  border-top: 0;
+}
+
+.element > .project > p {
+  color: gray;
+}
+
+.element > .project > div > div > p:nth-child(2) {
+  font-weight: bold;
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top: 1px solid lightgray;
+}
+
+.new-comment {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid lightgray;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.my-input {
+  width: 100%;
+  height: 20px;
+  border: 0px;
+  padding: 5px 10px;
+}
